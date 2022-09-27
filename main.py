@@ -57,11 +57,11 @@ print(my_bool)
 # ask the user for their age
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
 
-age = int(input(" What is your age? "))
-if age >= 18 and age <= 21:
-  print("You can vote!")
-else:
-  print("Better luck next time bud!")
+# age = int(input(" What is your age? "))
+# if age >= 18 and age <= 21:
+#   print("You can vote!")
+# else:
+#   print("Better luck next time bud!")
 
 
 
@@ -71,6 +71,12 @@ else:
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
+num1 = 36
+num2 = 17
+
+my_bool = num1 >= num2
+print(my_bool)
+
 
 
 
@@ -79,6 +85,12 @@ else:
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
+import math 
+
+num1 = math.sqrt(25)
+num2 = 5
+my_bool = num1 = num2
+print(my_bool)
 
 
 # Comparison Operators Practice #4:
@@ -90,7 +102,10 @@ else:
 
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
 
+num1 = 64 * 3
+num2 = 24 * 8
 
+my_bool = num1 != num2
 
 
 
