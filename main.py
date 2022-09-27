@@ -151,7 +151,11 @@ print(my_bool)
 
 # Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
 
-
+num1 = 36
+num2 = 72/2
+num3 = 48
+my_bool = num1 > num2 or num1 < num3
+print(my_bool)
 
 # Logical Operators Practice #3
 # Check if the words:
@@ -164,7 +168,9 @@ print(my_bool)
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
-
+text = "When something is important enough, you do it even if the odds are against you"
+my_bool = ('success' in text) and ('technology'in text)
+print(my_bool)
 
 
 
