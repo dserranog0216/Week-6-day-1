@@ -12,24 +12,24 @@
 # Append the value of current to the end of the list seconds Please use the list.append() method to do that.
 
 
-seconds = [1.23, 1.45, 1.02]
-current = 1.11
+# seconds = [1.23, 1.45, 1.02]
+# current = 1.11
 
-seconds.append(current)
-print(seconds)
+# seconds.append(current)
+# print(seconds)
 
-# Remove item 1.45 from seconds.
-seconds = [1.23, 1.45, 1.02, 1.11]
-seconds.remove(1.45)
-print(seconds)
+# # Remove item 1.45 from seconds.
+# seconds = [1.23, 1.45, 1.02, 1.11]
+# seconds.remove(1.45)
+# print(seconds)
 
 
-# Remove items 1.45, 1.02, and 1.11 from seconds.
-seconds = [1.23, 1.45, 1.02, 1.11]
-newSeconds = seconds [1:]
-seconds.remove(1.45)
+# # Remove items 1.45, 1.02, and 1.11 from seconds.
+# seconds = [1.23, 1.45, 1.02, 1.11]
+# newSeconds = seconds [1:]
+# seconds.remove(1.45)
 
-print(newSeconds)
+# print(newSeconds)
 
 ################################comparison operators#########################
 #remember....
@@ -40,9 +40,29 @@ print(newSeconds)
 # == equal
 # != different or not equal to
 
+# learning comparison operators
+mybool=10 == 20
+print(mybool)#false
+
+mybool = 5 + 5 == 10 -0
+print(mybool)#true
+
+my_bool = 'white' == 'White'.lower()
+print(my_bool)
+
+my_bool = 4 < 5 and 5 > 6
+print(my_bool)
+
 # Comparison Operators Practice 1:
 # ask the user for their age
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
+
+age = int(input(" What is your age? "))
+if age >= 18 and age <= 21:
+  print("You can vote!")
+else:
+  print("Better luck next time bud!")
+
 
 
 
